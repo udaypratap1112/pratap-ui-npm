@@ -23,7 +23,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Log in to npm
+      - name: Build project
+        run: npm run build    
+
+      - name: Log in to npm with token
         run: npm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
 
       - name: Publish to npm

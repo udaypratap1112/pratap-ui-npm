@@ -2,7 +2,7 @@
   "name": "pratap-ui",
   "private": false,
   "description": "React UI Library",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "dist/index.es.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
